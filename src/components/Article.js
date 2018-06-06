@@ -31,10 +31,10 @@ export default class Article extends React.Component {
             uri: urlToImage || defaultImg
           }}
         >
-          <Text style={{ marginBottom: 10 }}>
+          <Text style={{ marginBottom: 5 }}>
             {description || 'Read More..'}
           </Text>
-          <Divider style={{ backgroundColor: '#dfe6e9' }} />
+          <Divider style={{ backgroundColor: '#c66f17' }} />
           <View
             style={{ flexDirection: 'row', justifyContent: 'space-between' }}
           >
@@ -50,9 +50,10 @@ export default class Article extends React.Component {
 const styles = {
   noteStyle: {
     margin: 5,
-    fontStyle: 'italic',
-    color: '#b2bec3',
-    fontSize: 10
+    fontStyle: 'normal',
+    fontWeight: '600',
+    color: '#2b49b5',
+    fontSize: 15
   },
   featuredTitleStyle: {
     marginHorizontal: 5,
